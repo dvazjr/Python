@@ -161,6 +161,10 @@ print(f"There are {letter_count} letters in this name")
 
 
 # Used an import module from a separate file which included the function "namer". Saved in same directory
+"""
+def namer(first_name):
+    return f"Hello there {first_name}!"
+"""
 print(namer_module.namer("Danny"))
 
 # Classes
